@@ -4,10 +4,9 @@
   "description": "Discord Bot is a bot with which you can run your entire server! With no less than 400+ commands",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .",
-    "add-dev": "node src/dev.js"
-  },
+  "start": "node server.js && node .",
+  "add-dev": "node src/dev.js"
+},
   "keywords": [
     "Music",
     "Moderation",
